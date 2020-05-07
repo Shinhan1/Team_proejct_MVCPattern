@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+    font-family: "나눔스퀘어";
+    word-break: keep-all;
+    font-size: 100%;
+
+    }
+
+    .box-container{
+    width: 1900px;
+    height : 740px;
+    padding: 100px 0 150px;
+    margin: 0;
+    background-color: #e5e5e5
+    }
+
+    .head{
+    padding-bottom: 40px;
+    text-align: center;
+    }
+
+
+	.three{
+	float: left;
+    margin-right: 37.5px;
+    padding: 75px 74px 0;
+    width: 325px;
+    height: 380px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,.15);
+    border: 1px solid transparent;
+	}
+	#all-box{
+	margin-left: 200px;
+	}
+
+	image{
+	 width: 80px;
+	}
+	.btn1 {
+    display: inline-block;
+    padding: 0 60px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 1.04em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.04em;
+    background: #3E66AE;
+    border: 0;
+    }
+
+	.btn {
+    display: inline-block;
+    padding: 0 60px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 1.04em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.04em;
+    background: #61564b;
+    border: 0;
+    }
+
+	.three:hover{
+	border: 2px solid #3E66AE;
+
+	}
+

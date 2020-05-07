@@ -1,0 +1,333 @@
+@charset "UTF-8";
+
+#donaBtn {
+      position: fixed;
+      bottom: 50px;
+      right: 50px;
+      opacity: 0.7;
+      width: 180px;
+      height: 100px;
+    }
+
+
+#cctxt {
+	width: 490px;
+	height: 30px;
+	padding: 10px;
+}
+
+#selbt {
+	margin-top: 7px;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	margin-left: -52px;
+	size: 50% 50%;
+	position: absolute;
+}
+
+.bb {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+.bb_li {
+	border: 1px solid #BDBDBD;
+	border-right: hidden;
+	width: 180px;
+	height: 45px;
+	text-align: center;
+	padding-top: 20px;
+	display: inline;
+	float: left;
+}
+
+#bb1_li {
+	border-right: 1px solid #BDBDBD;
+}
+
+/* 후원가이드 1:1문의 전화문의 */
+.under_bar div {
+	border: 1px solid #BDBDBD;
+	padding: 20px;
+	margin-top: 50px;
+	margin-right: 40px;
+	width: 25%;
+	height: 60px;
+	float: left;
+}
+
+.under_bar div img {
+	float: left;
+	padding-right: 20px;
+}
+
+.under_bar div p {
+	font-size: 13px;
+}
+
+.under_bar div h3 {
+	margin: 0;
+}
+
+.under_bar div a img {
+	float: right;
+	margin-top: -50px;
+	margin-right: -30px;
+}
+
+
+
+.customer {
+	background-image: url(../image/pencil.gif);
+	background-size: 100% 100%;
+	height: 170px;
+	padding-top: 200px;
+	text-align: center;
+}
+.boardBack_left {
+	opacity: 0.9;
+	margin: 0;
+	width: 150px;
+	height: 600px;
+	float: left;
+	padding-top: 20px;
+	
+}
+
+.profile {
+	text-align: center;
+}
+.boardBack_left img {
+	margin: 0 auto;
+}
+.boardBack {
+	margin: -200px 0 0 360px;
+	width: 1200px;
+	height: 800px;
+}
+
+
+	.boardBack_right {
+		background-color: white;
+		width: 1050px;
+		float: left;
+		padding: 40px;
+		box-sizing: border-box;
+		box-shadow: 0px 5px 10px 0px rgba(0,0,0,.15);
+	}
+	
+	/* 내용 좌측 div ul */
+	.in_nav {
+		margin-top: 37px;
+	}
+	
+	.in_nav li span {
+		display: block;
+    	height: 50px;
+	    line-height: 50px;
+	    border-top: 1px solid #e5e5e5;
+	    border-bottom: 1px solid #e5e5e5;
+	    
+	}
+	
+	
+	.in_nav li {
+		list-style: none;
+
+	}
+	
+	
+	.in_nav li a{
+		text-decoration: none;
+		color: black;
+	}
+	.in_nav li span:last-child {
+		border-bottom: none;
+	}
+	
+	
+	/* 내용 우측 div */
+	#inquiryBt {
+		border: 1px solid #FFC19E;
+		background-color: #FFC19E;
+		width: 110px;
+		height: 50px;
+		float: right;
+		margin-top: -15px;
+		margin-bottom: 20px;
+	}
+	
+	.in_nav_span.seven{
+		background-color: white;
+		border-right: 1px solid white;
+		color: red;
+		box-shadow: -5px 5px 10px -5px rgba(0,0,0,.15);
+	}
+	
+	.bb_right_title {
+		border-right: 1px solid #D5D5D5;
+		width: 150px;
+		height: 150px;
+		float: left;
+		color: #926d49;
+	}
+	
+	.bb_right_title h2 {
+		padding-top: 10px
+	}
+	
+	/* 1:1문의에서 왼쪽 메뉴들 */
+	.info_faq {
+		float: left;
+		width: 21%;
+		padding: 10px 10px 10px 40px;
+	}
+	
+	h1 {
+		margin-top: 20px;
+        padding-bottom: 30px;	
+	}
+
+    .info_faq h3 {
+        padding-bottom: 10px;
+    }
+
+	.info_faq h4 {
+		color: #926d49;
+		padding-top: 15px;
+	}
+	.info_faq img{
+		float: left;
+		padding-right: 20px;
+	
+	}
+	.info_faq a img {
+		float: right;
+		margin-top: -50px;
+		margin-right: -50px;
+	}
+	.info_faq p {
+		font-size: 13px;
+		padding: 15px 0;
+	}
+	
+	.right_inner {
+		clear: both;
+		padding-top: 30px;
+	}
+	.info_faq a {
+		text-decoration: none;
+		color: #3DB7CC;
+
+	}
+	
+	#right_inner_table {
+		width: 100%;
+		border-collapse: collapse;
+		border-top: 1px solid black;
+		border-bottom: 1px solid #D5D5D5;
+		margin-bottom: 20px;
+	}
+	#right_inner_table tr {
+		border-bottom: 1px solid #D5D5D5;
+	
+	}
+	#right_inner_table th {
+		height: 55px;
+	}
+	#right_inner_table th span {
+		display: block;
+		border-right: 1px solid #D5D5D5;
+	}
+	#right_inner_table th:last-child span {
+		border-right: none;
+	}
+	
+	
+	#right_inner_table td {
+		text-align: center;
+		height: 40px;
+	}
+	
+	#right_inner_table td div {
+		padding: 100px 0 97px;
+	    text-align: center;
+	    font-family: 'NanumSquare';
+	    font-size: 24px;
+	    color: #333333;
+	}
+	
+	.ri_in_div {
+		text-align: center;
+	}
+	.ri_in_div input:focus {
+		outline:none;
+	}
+	
+	#ri_in_sel {
+		width: 400px;
+		height: 50px;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	
+	/* 1:1문의에서 왼쪽 메뉴들 */
+	.in_nav_span {
+		font-size: 14px;
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+	
+	.page {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	.page a {
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+	}
+	
+	.col1 {
+    	width: 5%;
+	}
+
+	.col2 {
+	    width: 20%;
+	}
+	
+	.col3 {
+	    width: 40%;
+	}
+	
+	.col3 a{
+		text-decoration: none;
+		color: black;
+	}
+	
+	.col4 {
+    	width: 25%;
+	}
+	
+	.col5 {
+		width: 20%;
+	}
+	
+	
+	/*
+	#top {
+		text-align: center;
+		border-bottom: 1px solid black;
+	}
+	
+	#contents {
+		margin-left: 10px;
+	}
+	#button{
+		margin-left: 30px;
+	}
+	
+	#writer, #title, #email, #inquiry{margin-left:10px;} */

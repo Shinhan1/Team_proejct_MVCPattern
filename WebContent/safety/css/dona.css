@@ -1,0 +1,12 @@
+@charset "EUC-KR";
+
+#donaBtn {
+		position: fixed;
+		bottom: 30px;
+		right: 70px;
+		opacity: 0.7;
+		width: 180px;
+		height: 180px;
+		z-index: 1000;
+		cursor: pointer;
+	}

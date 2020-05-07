@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.customer {
+		background-image: url(../image/sitemap2.jpg);
+		color: white;
+		height: 300px;
+		background-size: 100%;
+	
+		padding-top: 200px;
+		text-align: center;
+	}
+	
+	.boardBack {
+		background-color: white;
+		margin-top: -70px;
+		margin-left: 360px;
+		padding: 60px;
+		width: 1200px;
+		box-sizing: border-box;
+	}
+	
+	.siteMap_tb.first{
+		width:100%;
+		margin-bottom: 50px;
+	}
+	
+	.siteMap_tb.second {
+		width: 75%;
+		float: left;
+		margin-right: 50px;
+	}
+	.siteMap_tb th {
+		height: 55px;
+		padding-right: 30px;
+		text-align: left;
+		font-size: 20px;
+		border-bottom: 1px solid #D5D5D5;
+	}
+	
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	
+	
+	.siteMap_tb ul {
+		padding: 0;
+	}
+	
+	.siteMap_tb li {
+		list-style: none;
+		padding-bottom: 15px;
+	}
+	
+	.bb_sns {
+		padding-top: 30px;
+	}
+	
+	.bb_sns a span {
+		padding-left: 10px;
+	}
+	
+	.bb_sns a{
+		display: block;
+		padding-bottom: 20px;
+	}

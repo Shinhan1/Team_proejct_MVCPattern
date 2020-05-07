@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+.subMenu{
+		background-color: #F6F6F6;
+		height: 50px;
+		text-align: center;
+	}
+	.subMenu_bar{
+		padding-top: 14px;
+	}
+
+	.subMenu a{
+		text-decoration: none;
+		color: black;
+		padding-right: 20px;
+
+	}
+
+	#mainP {
+		font-size: 45px;
+		font-weight: bold;
+	}
+
+	#subp {
+		margin-top: 100px;
+		font-size: 50px;
+	}
+
+	#subp1 {
+		font-size: 35px;
+	}
+
+	/* customer : 메인에 나오는 사진 div */
+	.customer {
+		/* background-image: url('https://www.sc.or.kr/webPub/sc_2018/images/news/main-bg.png'); */
+		/* background-color: #F2FFEB; */
+		background-image: url('https://www.sc.or.kr/webPub/sc_2018/images/organigation/main/main_subvisual.png');
+		height: 600px;
+		padding-top: 50px;
+		color: white;
+		margin: 0;
+	}
+	.under_bar {
+		margin: -30px 0 0 50px;
+	}
+
+	.under_bar div {
+		width: 25%;
+	}
+
+	.QA {
+		width: 690px;
+		height: 300px;
+		/* background-image: url('../images/donation.jpeg'); */
+		display : inline-block;
+		box-sizing: border-box;
+	}
+	.img {
+		/* display : inline-block; */
+		float: right;
+		margin-top: 100px;
+
+	}
+
+	.main_div {
+		width: 1200px;
+		margin-left: 360px;
+		padding-top: 140px;
+		box-sizing: border-box;
+
+	}
+
+	.page {
+		display: none;
+	}
+
+	table {
+		margin-left: 230px;
+		border: 1px solid white;
+	}
+
+	customer h2, h3, h4 {
+		color: #FFFFD2;
+	}
+
+	#h2_1 {
+		margin-left: 90px;
+
+	}
+
+	.ub .tewh {
+		color: white;
+		font-size: 38px;
+	}
+
+	.ub .tewh2 {
+		font-size: 17px;
+		color: #FFFFD2;
+	}
+
+
+
+	.secDiv {
+		height: 300px;
+	}
+
+	.main_div.second {
+		padding-top : 50px;
+		box-sizing: border-box;
+	}
+
+	.smb {
+		border: 1px solid #D5D5D5;
+		height: 110px;
+		width: 190px;
+		display: inline-block;
+		margin-right: 50px;
+		box-sizing: border-box;
+		padding: 20px;
+
+	}
+
+	.smb img {
+		display: block;
+		padding-bottom: 30px;
+	}
+
+	.sub {
+		margin-left: 270px;
+		margin-top: -215px;
+		padding-left: 20px;
+		box-sizing: border-box;
+
+	}
+	.sub1 {
+		margin-left: 270px;
+		margin-top: 45px;
+		padding-left: 20px;
+		box-sizing: border-box;
+
+	}
+
+	.second_img{
+		margin-left: 50px;
+	}
+
+
+	sub a{
+		text-decoration: none;
+		color: black;
+
+	}
+	sub1 a{
+		text-decoration: none;
+		color: black;
+
+	}
+	.smb a img {
+		margin-left: 120px;
+		margin-top: -90px;
+	}
+
+	.sub h3 {
+		margin: -70px 0 0 75px;
+		color: black;
+	}
+
+	.sub1 h3 {
+		margin: -70px 0 0 75px;
+		color: black;
+	}
+
+	.ub h4{
+		margin-top: 10px;
+	}
+
+	.img9 {
+margin-top: -10px;
+		float: left;
+	}
+
+

@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+
+	
+	
+	
+	/* 맨 위 nav와 맨 밑 footer를 제외한 전체 div */
+	.main {
+		height: 1350px;
+		background-color: #F6F6F6;
+	}
+	
+	
+	/* 본 내용 사진 div */
+	.customer {
+		background-image: url(../image/pencil.gif);
+		background-size: 100% 100%;
+		height: 170px;
+		padding-top: 200px;
+		text-align: center;
+	}
+	/* 메인 div  */
+	.boardBack {
+		margin: -200px 0 0 360px;
+		width: 1200px;
+		height: 800px;
+	}
+	
+	/* 메인 div 왼쪽 메뉴들 */
+	.boardBack_left {
+		opacity: 0.9;
+		margin: 0;
+		width: 150px;
+		height: 800px;
+		float: left;
+		padding-top: 20px;
+	}
+	/* 메인 div 왼쪽 메뉴 프로필 */
+	.profile {
+		text-align: center;
+	}
+	/* 메인 div 왼쪽 메뉴들 */
+	.boardBack_left img {
+		margin: 0 auto;
+	}
+	
+	/* 내용 좌측 div ul */
+	.in_nav {
+		margin-top: 37px;
+	}
+	/* 내용 좌측 div ul */
+	.in_nav li span {
+		display: block;
+		height: 50px;
+		line-height: 50px;
+		border-top: 1px solid #e5e5e5;
+		border-bottom: 1px solid #e5e5e5;
+	}
+	/* 내용 좌측 div ul */
+	.in_nav li {
+		list-style: none;
+	}
+	/* 내용 좌측 div ul */
+	.in_nav li a {
+		text-decoration: none;
+		color: black;
+	}
+	/* 내용 좌측 div ul */
+	.in_nav li span:last-child {
+		border-bottom: none;
+	}
+	
+	/* 내용 우측 div */
+	.boardBack_right {
+		background-color: white;
+		width: 1050px;
+		float: left;
+		padding: 40px;
+		box-sizing: border-box;
+		box-shadow: 0px 5px 10px 0px rgba(0,0,0,.15);
+	}
+	/* 수정/삭제하기에서 이메일 input */
+	#email, #domain {
+		width: 130px;
+		height: 20px;
+		border: none;
+	}
+	/* 내용 좌측 div ul */
+	.in_nav_span.seven {
+		background-color: white;
+		color: red;
+		box-shadow: -5px 5px 10px -5px rgba(0,0,0,.15);
+	}
+	/* 메인 div의 오른쪽 div의 h2 Safety재단 문의방법 */
+	.bb_right_title {
+		border-right: 1px solid #D5D5D5;
+		width: 150px;
+		height: 150px;
+		float: left;
+		color: #926d49;
+	}
+	
+	/* 메인 div의 오른쪽 div의 후원가이드, 1:1 문의, 전화문의 div */
+	.info_faq {
+		float: left;
+		width: 21%;
+		padding: 10px 10px 10px 40px;
+	}
+	/* 메인 div의 오른쪽 div의 후원가이드, 1:1 문의, 전화문의 div */
+	.info_faq h4 {
+		color: #926d49;
+		padding-top: 15px;
+	}
+	
+	h1 {
+		margin-top: 20px;
+        padding-bottom: 30px;	
+	}
+
+    .info_faq h3 {
+        padding-bottom: 10px;
+    }
+	
+	/* 메인 div의 오른쪽 div의 후원가이드, 1:1 문의, 전화문의 div */
+	.info_faq img {
+		float: left;
+		padding-right: 20px;
+	}
+	/* 메인 div의 오른쪽 div의 후원가이드, 1:1 문의, 전화문의 div */
+	.info_faq a img {
+		float: right;
+		margin-top: -50px;
+		margin-right: -50px;
+	}
+	/* 메인 div의 오른쪽 div의 후원가이드, 1:1 문의, 전화문의 div */
+	.info_faq p {
+		font-size: 13px;
+		padding: 15px 0;
+	}
+	/* 메인 div의 오른쪽 div의 후원가이드, 1:1 문의, 전화문의 div */
+	.info_faq a {
+		text-decoration: none;
+		color: #3DB7CC;
+	}
+	/* 메인 div의 오른쪽 div의 후원가이드, 1:1 문의, 전화문의 div */
+	.in_nav_span {
+		font-size: 14px;
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+	/* 문의 테이블 */
+	.inquiry_Table {
+		width: 100%;
+		border-collapse: collapse;
+		border-top: 1px solid #D5D5D5;
+		margin-bottom: 20px;
+	}
+	/* 문의 테이블 */
+	.inquiry_Table tr {
+		border-bottom: 1px solid #D5D5D5;
+	}
+	/* 문의 테이블 */
+	.inquiry_Table th {
+		width: 200px;
+		box-sizing: border-box;
+		text-align: left;
+		padding: 26px 0 26px 25px;
+	}
+	/* 문의 테이블 */
+	.inquriy_Table td {
+		padding: 10px 0;
+	}
+	/* 문의 테이블 */
+	.table_input {
+		height: 40px;
+		width: 550px;
+		padding: 20px;
+		box-sizing: border-box;
+		border: 1px solid #D5D5D5;
+	}
+	/* 문의 테이블 */
+	textarea {
+		padding: 20px;
+		width: 550px;
+		height: 230px;
+		box-sizing: border-box;
+		border: 1px solid #D5D5D5;
+		resize: none;
+	}
+	/* 문의 테이블 */
+	.table_button {
+		text-align: center;
+	}
+	/* 문의 테이블 */
+	.table_Bt {
+		width: 150px;
+		height: 55px;
+		font-size: 17px;
+	}
+	/* 문의 테이블 */
+	.table_Bt.first {
+		background-color: white;
+		border: 1px solid #D5D5D5;
+	}
+	/* 문의 테이블 */
+	.table_Bt.second {
+		background-color: #747474;
+		border: 1px solid #747474;
+		color: white;
+	}
+	/* 문의 테이블 */
+	.table_Bt.third {
+		background-color: #4C4C4C;
+		border: 1px solid #4C4C4C;
+		color: white;
+	}
+	/* 문의 테이블 */
+	.table_email {
+		width: 410px;
+		border: 1px solid #D5D5D5;
+		margin-bottom: 10px;
+	}
+	/* 문의 테이블 */
+	#email_sel {
+		border: none;
+		height: 40px;
+	}
+	/* 문의 테이블 */
+	#inquiry_area {
+		width: 150px;
+		height: 40px;
+		border: 1px solid #D5D5D5;
+		box-sizing: border-box;
+		padding-left: 15px;
+	}
+	/* 문의 테이블 */
+	.ta {
+		padding-top: 20px;
+	}
+	/* 문의 테이블 */
+	input:focus {outline:none;}
+	textarea:focus {outline:none;}
+	select:focus {outline:none;}
+	/* 문의 테이블 */
+	.email_ul {
+		padding: 20px 20px;
+		font-size: 14px;
+	}
+	/* 문의 테이블 */
+	#YN_email {
+		zoom: 1.5;
+		text-align: left;
+		position: relative;
+		top: 3px;
+	}
+	/* 문의 테이블 */
+	.checkbox {
+		width: 200px;
+	}
+	
+	/*
+		#top {
+			text-align: center;
+			border-bottom: 1px solid black;
+		}
+		
+		#contents {
+			margin-left: 10px;
+		}
+		#button{
+			margin-left: 30px;
+		}
+		
+		#writer, #title, #email, #inquiry{margin-left:10px;} */

@@ -1,0 +1,37 @@
+@charset "EUC-KR";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "³ª´®½ºÄù¾î";
+	list-style: none;
+	text-decoration: none;
+}
+
+.safety_history_div {
+	width: 1920px;
+	height: 900px;
+	background: url("../../gabi/image/history_bg.png");
+}
+
+.history_contents_div {
+	width: 1200px;
+	margin-left: 360px;
+}
+
+.history_contents_left {
+	float: left;
+
+}
+.history_contents_right{
+	margin-top: 250px;
+	margin-left: 100px;
+		float: left;
+}
+.history_contents_right2{
+		margin-top: 250px;
+}
+.history_p{
+	line-height: 19px;
+	margin-top: 10px;
+}

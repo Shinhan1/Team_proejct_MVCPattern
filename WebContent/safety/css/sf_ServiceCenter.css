@@ -1,0 +1,79 @@
+@charset "EUC-KR";
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "³ª´®½ºÄù¾î";
+
+}
+.sf_ServiceCenter_div{
+width: 1920px;
+height: 700px;
+
+}
+
+.TheNews_div{
+	margin-top: 180px;
+	width: 320px;
+	height: 320px;
+	margin-left: 360px;
+	float: left;
+}
+
+.Notice_div {
+	margin-top: 200px;
+	width: 280px;
+	height: 280px;
+	margin-left: 10px;
+	border: 1px solid lightgrey;
+	float: left;
+}
+
+.service_div {
+	margin-top: 200px;
+	width: 280px;
+	height: 280px;
+	margin-left: 10px;
+	border: 1px solid lightgrey;
+	float: left;
+}
+
+.QNA_div {
+	margin-top: 200px;
+	width: 280px;
+	height: 280px;
+	margin-left: 10px;
+	border: 1px solid lightgrey;
+	float: left;
+}
+
+.sf_ServiceCenter_title {
+	margin-left: 30px;
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+.TheNewsbtn {
+	margin-top: 140px;
+	margin-left: 20px;
+	width: 50px;
+	height: 50px;
+}
+
+.sf_ServiceCenter_icon1 {
+	margin-left: 50px;
+
+}
+
+
+.sf_ServiceCenter_btn1 {
+	margin-left: 200px;
+	margin-top: -25px;
+}
+.sf_ServiceCenter_btn2 {
+	margin-left: 200px;
+	margin-top: -25px;
+}
+.sf_ServiceCenter_btn3 {
+	margin-left: 200px;
+	margin-top: -25px;
+}

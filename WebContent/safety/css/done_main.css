@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+
+
+html, body {
+   background:  url("https://codepen.io/images/classy_fabric.png");
+}
+
+.slides { /* 좌우 변경 패널버튼 포지션 */
+   padding: 0;
+   width: 1050px;
+   height: 420px;
+   display: block;
+   /* margin-left:600px; */
+   margin-left: 425px;
+   margin-right: 425px;
+   margin-top: 450px;
+   position: relative;
+
+}
+
+.slides * {
+   user-select: none;
+   -ms-user-select: none;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -webkit-touch-callout: none;
+}
+
+.slides input {
+   display: none;
+}
+
+.slide-container {
+   display: block;
+}
+
+.slide { /* 중앙 픽쳐 포지션  */
+   top: 0;
+   opacity: 0;
+   width: 1050px;
+   height: 420px;
+   display: block;
+   position: absolute;
+   transform: scale(0);
+   transition: all .7s ease-in-out;
+   /* margin-top: 0px; */
+}
+
+.slide img {
+   width: 100%;
+   height: 100%;
+}
+
+.navii label { /* 좌우 변경 패널버튼 */
+   width: 200px;
+   height: 100%;
+   display: none;
+   position: absolute;
+   opacity: 0;
+   z-index: 9;
+   cursor: pointer;
+   transition: opacity .2s;
+   color: #FFF;
+   font-size: 156pt;
+   text-align: center;
+   line-height: 380px;
+   font-family: "Varela Round", sans-serif;
+   background-color: rgba(0, 0, 0, .3);
+}
+
+.slide:hover+.navii label {
+   opacity: 0.5;
+}
+
+.navii label:hover {
+   opacity: 1;
+}
+
+.navii .next {
+   right: 0;
+}
+
+input:checked+.slide-container  .slide {
+   opacity: 1;
+   transform: scale(1);
+   transition: opacity 1s ease-in-out;
+}
+
+input:checked+.slide-container .navii label {
+   display: block;
+}
+
+.nav-dots {
+   width: 100%;
+   bottom: 9px;
+   height: 11px;
+   display: block;
+   position: absolute;
+   text-align: center;
+   margin-top: 770px;
+}
+
+.nav-dots .nav-dot {
+   top: -5px;
+   width: 11px;
+   height: 11px;
+   margin: 0 4px;
+   position: relative;
+   border-radius: 100%;
+   display: inline-block;
+   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+   cursor: pointer;
+   background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+   background: rgba(0, 0, 0, 0.8);
+}
+
+.lbimg {
+   width: 1908px;
+   height: 890px;
+   margin-top: 50px;
+  
+   vertical-align: middle;
+   position: absolute;
+}
+
+.lbwrap {
+   position: absolute; margin-bottom:100px;
+}
+
+.fonts {
+   position: absolute;
+   width: auto;
+   margin-top: 120px;
+   margin-left: 275px;
+   font-family: 'NanumSquare', sans-serif;
+   font-size: 28px;
+   color: white;
+}
+
+.sboard1 {
+   position: absolute;
+   width: auto;
+   font-family: 'NanumSquare', sans-serif;
+   font-size: 38px;
+   color: white;
+   margin-top: 200px;
+   margin-left: 345px;
+}
+
+.sboard2 {
+   position: absolute;
+   width: auto;
+   /* font-family: 'NanumSquare', sans-serif; */
+   font-size: 38px;
+   color: white;
+   margin-top: 200px;
+   margin-left: 720px;
+   align:center;
+  
+   
+}
+
+.sboard3 {
+   position: absolute;
+   width: auto;
+   /* font-family: 'NanumSquare', sans-serif; */
+   font-size: 38px;
+   color: white;
+   margin-top: 200px;
+   margin-left: 1235px;
+}
+
+.sboard_son{
+   font-size: 38px;
+   /* font-family: 'NanumSquare', sans-serif; */
+   margin-bottom: 500px;
+}
+
+/* ================================================================= */
+.statistic {
+   width: 1920px;
+   min-height: 650px;
+   padding: 40px 0px 80px 170px;
+   margin: 0 auto;
+}
+
+.statistic-box {
+   background-color: #F6F5F4;
+   width: 400px;
+   height: 200px;
+   margin: 50px 60px 30px 50px;
+   padding-top: 140px;
+   margin-top: 170px;
+   float: left;
+   border: solid black 1px;
+  
+}
+.statistic-box2 {
+   background-color: #F6F5F4;
+   width: 400px;
+   height: 200px;
+   margin: 50px 60px 30px 50px;
+   padding-top: 140px;
+   margin-top: 150px;
+   float: left;
+   border: solid black 1px;
+}
+
+
+
+.statistic-box:hover{
+   background-color: #FFCC01;
+   opacity: 0.4;
+}
+
+.statistic-box p:nth-child(1) {
+   font-size: 40px;
+   font-weight: 700;
+   color: #FFCC01;
+   margin: 0px; 
+   padding: 0px;
+  
+   
+}
+
+.statistic-box p:nth-child(2) {
+   font-size: 14px;
+   font-weight: 700;
+   color: gray;
+   margin: 0px;
+   padding: 0px;
+}
+/* 따라다니는 메뉴 */
+#floatMenu {
+   position: absolute;
+   width: 150px;
+   height: 150px;
+   right: 50px;
+   top: 780px;
+   background-color: red;
+   color: #fff;
+   border-radius: 100px 100px 100px 100px;
+   opacity: 0.4;
+}
+
+#textwhatiwant {
+   text-align: center;
+   font-size: 40px;
+   font-size: 30px;
+}

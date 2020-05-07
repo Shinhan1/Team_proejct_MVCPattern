@@ -1,0 +1,83 @@
+@charset "EUC-KR";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "³ª´®½ºÄù¾î";
+	list-style: none;
+	text-decoration: none;
+}
+
+.safety_introduce_div {
+	width: 1920px;
+	height: 1800px;
+}
+
+.introduce_div {
+	background: url("../image/introduce_bg.png");
+	width: 1920px;
+	height: 600px;
+}
+
+.introduce_bg1_div {
+	width: 1920px;
+	height: 500px;
+	background-color: white;
+}
+
+.introduce_bg2_div {
+	width: 1920px;
+	height: 700px;
+	background-color: #e9e9e9;
+}
+
+.introduce_bg3_div {
+	width: 1920px;
+	height: 480px;
+	background-color: white;
+}
+
+.introduce_contents_div {
+	width: 1200px;
+	height: 400px;
+	margin-top: 560px;
+	margin-left: 360px;
+	position: absolute;
+	background-color: #4063ae;
+}
+
+.introduce_text {
+	margin-top: 380px;
+	margin-left: 360px;
+	position: absolute;
+}
+
+.introduce_contents_div2 {
+	width: 1200px;
+	height: 400px;
+	margin-top: 1200px;
+	margin-left: 360px;
+	position: absolute;
+}
+
+.introduce_contents_div3 {
+	width: 1200px;
+	height: 400px;
+	margin-top: 1900px;
+	margin-left: 360px;
+	position: absolute;
+}
+
+.introduce_contents_div4 {
+	width: 850px;
+	height: 200px;
+	border: 1px solid #d9d9d9;
+	border-color: #d9d9d9;
+	margin-top : 1900px;
+	margin-left: 700px;
+	position: absolute;
+	margin-top: 1950px;
+
+}
+
+

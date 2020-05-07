@@ -1,0 +1,15 @@
+@charset "EUC-KR";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sf_ci_div {
+
+	background-color: #4364ae;
+}
+
+.sf_ci_image1 {
+	margin-top: 100px;
+	margin-left: 800px;
+}

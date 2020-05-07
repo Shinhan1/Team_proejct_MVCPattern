@@ -1,0 +1,199 @@
+@charset "UTF-8";
+* {
+	font-family: "나눔스퀘어";
+	font-size: 100%;
+	font-variant-ligatures: none;
+}
+.btn btn-dark{
+	text-decoration: none;
+}
+.none {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+.finish-title h1 {
+	margin-top : 40px;
+    padding-bottom: 10px;
+    font-size: 29px;
+}
+
+.finish-title h2 {
+    font-size: 19px;
+}
+
+
+ul {
+    list-style: none;
+    
+}
+.finish-grid-wrap h1 {
+    margin: 5px 0 15px;
+    font-size: 20px;
+}
+h1 {
+    color: #333;
+}
+h2 {
+    color: #555;
+}
+#toHome{
+	list-style: none;
+	text-decoration: none;
+	
+}
+.finish-grid-wrap h2 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Nanum Barun Gothic';
+    letter-spacing: -0.05em;
+}
+
+
+.finish-grid-wrap {
+    margin-top: 76px;
+    padding-top: 38px;
+    padding-bottom: 10px;
+    text-align: left;
+    float : left;
+  
+    border-top: 1px solid #e5e5e5;
+}
+
+.finish-grid-wrap ul li {
+
+    list-style-type : none;
+    float: left;
+
+  padding: 0 27px;  
+    width: 300px; 
+    border-right: 1px solid #eeeeee;
+    margin-top: 60px;
+    
+}
+
+#finish-grid-wrap i {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 25px;
+    height: 25px;
+    background: url(../image/btn-circle-arrow.png);
+}
+
+#finish-grid-1 {
+    background: url(../image/one.jpg) no-repeat right 40px center;
+}
+
+#finish-grid-2 {
+	position: absolute;
+	margin-left: 400px;
+	
+    background: url(../image/two.jpg) no-repeat right 40px center;
+}
+#finish-title{
+	margin-top: 50px;
+	
+}
+#finish-grid-3 {
+	position: absolute;
+	margin-left: 800px;
+    background: url(../image/three.jpg) no-repeat right 40px center;
+}
+.btn-dark {
+    background: #555555;
+}
+.head {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+ul {
+	
+	position: relative;
+	margin: auto;
+
+	margin-right: 635px;
+	width: 600px;
+	height: 80px;
+	list-style: none;
+}
+
+.topLi {
+	position: absolute;
+	top: 0;
+	text-align: center;
+}
+
+i {
+	display: inline-block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: #cccccc;
+	border-radius: 50%;
+	border: 2px solid transparent;
+}
+
+.ibefore::before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 23px;
+	width: 160px;
+	height: 1px;
+	background: #cccccc;
+}
+
+.member-contents {
+	margin-left: 350px;
+	width: 1200px;
+	height: 580px;
+	padding: 0px 0px 30px;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, .15);
+}
+
+.welcomeTxt{
+padding-top: 30px;
+margin-top: 50px;
+font: 29px;
+text-align: center;
+font-weight: bold;
+}
+
+.welcomeTxt2{
+font: 15px;
+text-align: center;
+font-weight: bold;
+}
+.toHome{
+   display: inline-block;
+    padding: 0 60px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 1.04em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.04em;
+   background: #3E66AE;
+    border: 0; 
+
+}
+.finish-image {
+    margin-top: 76px;
+    padding-top: 38px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-top: 1px solid #e5e5e5;
+}
+.btn {
+    display: inline-block;
+    padding: 0 60px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 1.04em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.04em;
+}

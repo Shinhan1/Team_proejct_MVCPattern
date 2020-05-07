@@ -1,0 +1,86 @@
+@charset "EUC-KR";
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "³ª´®½ºÄù¾î";
+	list-style: none;
+	text-decoration: none;
+}
+.sf_ci_div{
+width: 1920px;
+height: 1500px;
+
+background: url("../../gabi/image/ci_bg.png");
+
+
+
+}
+.ci_logo_div{
+width: 1920px;
+height: 215px;
+background-color: #474f65;
+margin-top: 80px;
+float: left ;
+}
+.ci_logo{
+margin-left: 840px;
+margin-top: 70px;
+float: left ;
+}
+.sf_conetents_div{
+width: 1920px;
+height: 1250px;
+float: left ;
+}
+.contents_div{
+margin-left: 360px;
+margin-top: 60px;
+width: 1200px;
+height: 1000px;
+float: left ;
+}
+.contents_div_left{
+
+width: 600px;
+height: 1000px;
+float: left ;
+}
+.contents_div_right{
+
+width: 600px;
+height: 1000px;
+float: left ;
+}
+.ci_h5{
+font-family: "³ª´®½ºÄù¾î";
+font-size: 15px;
+font-weight: 600;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.ci_h6{
+    font-size: 15px;;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.h_biim{
+
+    width: 430px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  border-color: #d9d9d9;
+  opacity: 70%
+
+
+}
+.h_biim2{
+
+    width: 580px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   border-color: #d9d9d9;
+   opacity: 70%
+
+
+}

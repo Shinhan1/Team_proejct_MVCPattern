@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.subMenu{
+		background-color: #555;
+		height: 50px;
+		text-align: center;
+	}
+	.subMenu_bar{
+		padding-top: 14px;
+		margin: 0 auto;
+		display: inline-block;
+		text-align: center;
+	}
+	
+	.subMenu a{
+		text-decoration: none;
+		color: black;
+		
+		
+	}
+	
+	.smb {
+		width: 250px;
+		height: 50px;
+		float: left;
+		text-align: center;
+		margin-top: -14px;
+		padding-top: 13px;
+		box-sizing: border-box;
+	}
+	
+	h4 {
+		color: #926d49;
+		padding-bottom: 10px;
+	}
+	
+	ul li {
+		list-style: none;
+	}
+	
+	/* boardBack : 사진 div에 살짝 겹쳐진 본 내용이 들어가는 div */
+	.boardBack {
+		background-color: white;
+		margin-left: 360px;
+		padding-top: 30px;
+		width: 1200px;
+	}
+	
+	.title {
+		text-align:center;
+	}
+	
+	
+	
+	
+	.smb:active {
+		background-color: white;
+		color: #555;
+	}
+	
+	.hide {
+		height: 80px;
+	}
+	
+	h1 {
+		padding-bottom: 30px;
+	}
+	
+	p {
+		line-height: 24px;
+	}
+	
+	h2 {
+		padding-bottom: 20px;
+	}
+	
+	li {
+		padding-bottom: 10px;
+		
+	}
+	ul {
+		padding-bottom: 10px;
+	}
+	
+	

@@ -1,0 +1,204 @@
+@charset "EUC-KR";
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "³ª´®½ºÄù¾î";
+	font-size: 16px;
+}
+.safetyFind_ID_full{
+width: 1920px;
+height: 1000px;
+background-color: #f5f5f5;
+float: left;
+}
+#inner{
+	background-color:white;
+	margin-top: 200px;
+	margin-left: 700px;
+	width: 600px;
+	height: 600px;
+	border : 1px solid #cbcbca;
+
+}
+h1{
+	text-align: center;
+	margin-top: 70px;
+	size: 30px;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: -2px;
+
+}
+#title{
+	width: 600px;
+	height: 60px;
+}
+h5{
+	margin-top : 10px;
+	text-align: center;
+	margin-bottom:20px;
+}
+#name {
+	margin-left:85px;
+	margin-bottom:5px;
+
+	width: 410px;
+	height: 50px;
+	border: 1px solid #cbcbca;
+}
+#tapdiv{
+margin-left:85px;
+	margin-bottom:10px;
+width: 420px;
+height: 60px;
+border: 1px solid #cbcbca;
+margin-top: 30px;
+
+
+
+}
+#tapbtn1{
+width: 210px;
+height: 60px;
+border: white;
+float: left;
+background-color: white;
+
+
+}
+
+#tapbtn1:hover{
+background-color:#ababab;
+color: white;
+
+}
+#tapbtn2{
+width: 210px;
+height: 60px;
+border: white;
+background-color: white;
+
+}
+#tapbtn2:hover{
+background-color:#ababab;
+color: white;
+}
+
+
+
+
+#hpchoice{
+	margin-bottom:5px;
+	width: 55px;
+	height: 50px;
+	border: 0px solid  #cbcbca;
+}
+#namefd{
+margin-bottom: 5px;
+
+
+}
+#hpinput{
+	margin-left:85px;
+	margin-bottom:5px;
+	border: 1px solid #cbcbca;
+	width: 420px;
+	height: 50px;
+
+}
+#hpchoice2{
+
+	margin-left: -5px;
+	margin-bottom:10px;
+	width: 350px;
+	height: 50px;
+	size: 10px;
+	border: 0px;
+
+}
+
+h6{
+	margin-top : 5px;
+	margin-left:85px;
+	color:red;
+	font-size:14px;
+}
+
+.btn1{
+	width: 420px;
+	height: 70px;
+	margin-top: 25px;
+	margin-left:85px;
+
+	border-radius: 5px 5px 5px 5px;
+	border-style: none;
+	border:1px solid #4364ae;
+	font-size: 16px;
+	background-color : white;
+	font-family: "³ª´®½ºÄù¾î";
+	font-weight:bold;
+	color:#4364ae;
+
+	text-align: center;
+
+
+}
+
+.btn1:hover{/* ¸¶¿ì½º ¿À¹ö */
+
+  background-color: #4364ae;
+  color: white;
+}
+.btn2{
+	width: 420px;
+	height: 70px;
+	margin-top: 25px;
+	margin-left:85px;
+
+	border-radius: 5px 5px 5px 5px;
+	border-style: none;
+	border:1px solid #4364ae;
+	font-size: 16px;
+	background-color : white;
+	font-family: "³ª´®½ºÄù¾î";
+	font-weight:bold;
+	color:#4364ae;
+
+	text-align: center;
+
+
+}
+
+.btn2:hover{/* ¸¶¿ì½º ¿À¹ö */
+
+  background-color: #4364ae;
+  color: white;
+}
+#email1{
+	border:0px;
+	border-color: white;
+	width: 90px;
+	height: 49px;
+}
+#email2{
+	border:0px;
+	border-color: white;
+	width: 150px;
+	height: 49px;
+}
+
+
+
+#email_select{
+width: 130px;
+height: 49px;
+border:0px;
+}
+
+#eamilinput{
+	margin-left:85px;
+	margin-bottom:10px;
+	border: 1px solid #cbcbca;
+	width: 420px;
+	height: 50px;
+}

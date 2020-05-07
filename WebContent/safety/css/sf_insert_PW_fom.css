@@ -1,0 +1,72 @@
+@charset "EUC-KR";
+@charset "EUC-KR";
+*{   /* 전체 css 초기화 */
+	margin: 0;
+	padding: 0;
+	font-family: "나눔스퀘어";
+	font-size: 16px;
+}
+.sf_insert_PW_fom_full{
+width: 1920px;
+height: 900px;
+background-color: #f5f5f5;
+float:left;
+
+}
+.inner{  /* 전체 div  */
+	background-color:white;
+	margin-top: 200px;
+	margin-left: 700px;
+	width: 600px;
+	height: 400px;
+	border : 1px solid #cbcbca;
+
+	background-color: white;
+	margin-bottom: 80px;
+}
+#id{ /* 아이디 필드  */
+	margin-left:85px;
+	margin-bottom:10px;
+	margin-top:50px;
+	width: 420px;
+	height: 50px;
+	border: 1px solid #cbcbca;
+}
+#pw{/* 패스월드  필드  */
+	margin-left:85px;
+	margin-bottom:10px;
+	width: 420px;
+	height: 50px;
+	border: 1px solid #cbcbca; /* 회색 */
+	font-family: "나눔고딕";
+	letter-spacing:
+}
+.insert_btn{ /* 로그인 버튼  & 회원가입 버튼*/
+	width: 430px;
+	height: 70px;
+	margin-top: 10px;
+	margin-left:85px;
+	border-radius: 5px 5px 5px 5px;
+	border-style: none;
+	border:1px solid #4364ae;
+	outline-color : none;
+	background-color : white;
+
+	font-weight:bold;
+	color:#4364ae;  /* 고유 색*/
+	text-align: center;
+}
+.insert_btn:hover{/* 마우스 오버 */
+  background-color: #4364ae;
+  color: white;
+}
+
+#PW_Find_title{ /* 타이틀  */
+	text-align: center;
+	margin-top: 70px;
+	size: 30px;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: -2px;
+}
+

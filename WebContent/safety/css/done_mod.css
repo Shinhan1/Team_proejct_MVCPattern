@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+ 
+/*    
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, sans-serif, Arial;
+}  */  
+body{
+ 	width : 1200px;
+
+ 	}
+ 	
+.text{
+ 	margin-left: 60px;
+ 	margin-right:60px;
+	
+}
+.corporation_table{
+	margin-top : 30px;
+	margin-left: 200px;
+	maring-bottom: 30px;
+	/* font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, sans-serif, Arial; */
+	font-size: large;
+	
+ 	
+}
+
+.corporation_button{
+	margin-left: 500px;	/*  430 */
+	margin-top : 70px;
+	margin-bottom : 30px;
+	width: 130px;
+	height: 40px;
+	background-color: skyblue;
+	font-size: x-large;
+	margin-right:500px;	/* margin X */
+}
+
+
+#text{
+	border : 1px solid black;
+}
+.pont_L{	/*tex box  */
+font-size: large;
+margin-left: 100px;
+}
+
+
+
+
+ 	
+.penta {
+      width: 100px;
+      height: 60px;
+      transform: skew(20deg);
+      background: #cc00ff;		
+    }
+    .pentaA {
+      width: 135px;
+      height: 80px;
+      transform: skew(20deg);
+      background: #cc00ee;		
+    }
+    .pentaB {
+      width: 135px;
+      height: 80px;
+      transform: skew(20deg);
+      background: #cc00dd;		
+    }
+   .donation_submit{
+   align : center;
+   }
+
+  
+   .f_row{
+   font-size: :70px;
+   }
+   .alis{
+    margin-left: 360px;
+ 	margin-right:360px;
+ 	position: absolute;
+   
+   }
+/* .falis{margin-top: 700px;margin-right: -800px;}
+ .balis{background-image: url("../image/chd.jpg");height:300px;width:1920px;}    */

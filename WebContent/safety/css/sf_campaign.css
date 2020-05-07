@@ -1,0 +1,131 @@
+@charset "EUC-KR";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "³ª´®½ºÄù¾î";
+}
+
+.sf_campaign_inner {
+	width: 1920px;
+	height: 600px;
+
+}
+
+.sf_campaign_btn_div {
+	width: 300px;
+	height: 600px;
+	position: absolute;
+}
+
+.sf_campaign_inner_bg1 {
+	width: 1920px;
+	height: 600px;
+	position: absolute;
+	background-image: url('../image/sf_event1.png');
+}
+
+.sf_campaign_inner_bg2 {
+	width: 1920px;
+	height: 600px;
+	background-image: url('../image/sf_event2.png');
+position: absolute;
+}
+
+.sf_campaign_inner_bg3 {
+	width: 1920px;
+	height: 600px;
+	background-image: url('../image/sf_event3.png');
+position: absolute;
+}
+.sf_campaign_btn1 {
+	float: left;
+	height: 70px;
+	width: 300px;
+	margin-top: 180px;
+	opacity: 70%;
+	background-color: black;
+}
+
+.sf_campaign_btn2 {
+	float: left;
+	height: 70px;
+	width: 300px;
+	margin-top: 20px;
+	opacity: 70%;
+	background-color: black;
+}
+
+.sf_campaign_btn3 {
+	float: left;
+	height: 70px;
+	width: 300px;
+	margin-top: 20px;
+	opacity: 70%;
+	background-color: black;
+}
+
+.sf_campaign_p {
+	color: white;
+	margin-left: 10px;
+	margin-top: 25px;
+	float: left;
+}
+
+#sf_campaign_icon {
+	margin-top: 20px;
+	margin-right: 10px;
+	float: right;
+}
+
+.sf_campaign_title_div {
+	width: 1200px;
+	height: 400px;
+	position: absolute;
+	margin-left: 360px;
+	margin-top: 180px;
+}
+
+.campaign_h1 {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+
+.campaign_h5 {
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.sf_campaign_plus_icon1 {
+	margin-left: 460px;
+	margin-top: 50px;
+}
+
+.sf_campaign_plus_icon2 {
+	margin-left: 460px;
+	margin-top: 50px;
+}
+
+.sf_campaign_plus_icon3 {
+	margin-left: 460px;
+	margin-top: 50px;
+}
+
+.sf_campaign_btn1:hover {
+	background-color: #37a6d9;
+	opacity: 80%;
+}
+
+.sf_campaign_btn2:hover {
+	background-color: #37a6d9;
+	opacity: 80%;
+}
+
+.sf_campaign_btn3:hover {
+	background-color: #37a6d9;
+	opacity: 80%;
+}

@@ -1,0 +1,113 @@
+@charset "EUC-KR";
+*{   /* 전체 css 초기화 */
+	margin: 0;
+	padding: 0;
+	font-family: "나눔스퀘어";
+	font-size: 16px;
+}
+.safetyLogin_full{
+width: 1920px;
+height: 1000px;
+background-color: #f5f5f5;
+float:left;
+
+}
+.inner{  /* 전체 div  */
+	background-color:white;
+	margin-top: 200px;
+	margin-left: 700px;
+	width: 600px;
+	height: 600px;
+	border : 1px solid #cbcbca;
+
+	background-color: white;
+}
+#id{ /* 아이디 필드  */
+	margin-left:85px;
+	margin-bottom:10px;
+	margin-top:50px;
+	width: 420px;
+	height: 50px;
+	border: 1px solid #cbcbca;
+}
+#pw{/* 패스월드  필드  */
+	margin-left:85px;
+	margin-bottom:10px;
+	width: 420px;
+	height: 50px;
+	border: 1px solid #cbcbca; /* 회색 */
+	font-family: "나눔고딕";
+	letter-spacing:
+}
+.login_btn{ /* 로그인 버튼  & 회원가입 버튼*/
+	width: 430px;
+	height: 70px;
+	margin-top: 10px;
+	margin-left:85px;
+	border-radius: 5px 5px 5px 5px;
+	border-style: none;
+	border:1px solid #4364ae;
+	outline-color : none;
+	background-color : white;
+
+	font-weight:bold;
+	color:#4364ae;  /* 고유 색*/
+	text-align: center;
+}
+.login_btn:hover{/* 마우스 오버 */
+  background-color: #4364ae;
+  color: white;
+}
+.SignUp_btn{ /* 로그인 버튼  & 회원가입 버튼*/
+	width: 430px;
+	height: 70px;
+	margin-top: 5px;
+	margin-left:85px;
+	border-radius: 5px 5px 5px 5px;
+	border-style: none;
+	border:1px solid #4364ae;
+	font-size: 16px;
+	background-color : white;
+	font-family: "나눔스퀘어";
+	font-weight:bold;
+	color:#4364ae;
+	text-align: center;
+}
+.SignUp_btn:hover{/* 마우스 오버 */
+  background-color: #4364ae;
+  color: white;
+}
+#login_title{ /* 타이틀  */
+	text-align: center;
+	margin-top: 70px;
+	size: 30px;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: -2px;
+}
+#ckbox_div{/* 채크박스  */
+	float: left;
+}
+#ckbox{ /* 채크박스  */
+	margin-top : 14px;
+	margin-left: 85px;
+	width: 20px;
+	height: 20px;
+}
+#ckbox_lb{ /* 체크박스 이름  */
+	vertical-align: middle;
+	margin-top: -10px;
+	display:inline-block;
+}
+
+
+.find_div{/* 아이디 찾기 &비밀번호 찾기   div */
+	float: right;
+	margin-right: 85px;
+	margin-top: 20px;
+}
+.find_a{
+	float: left;
+	color: black;
+	text-decoration: none;
+}

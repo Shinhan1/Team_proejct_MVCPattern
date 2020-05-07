@@ -1,0 +1,53 @@
+@charset "EUC-KR";
+
+.sf_supporter_div {
+	width: 1920px;
+	height: 1000px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.supporter_div {
+	margin-top: 200px;
+	width: 1200px;
+	height: 600px;
+	margin-left: 360px;
+
+}
+
+.supporter_img1_div {
+	background-image: url('../image/정기후원_bg.png');
+	float: left;
+	height: 600px;
+	width: 600px;
+
+}
+
+.supporter_img2_div {
+	background-image: url('../image/개인후원_bg.png');
+	float: left;
+	height: 600px;
+	width: 600px;
+
+}
+
+#sponedbtn1 {
+	margin-top: 485px;
+	margin-left: 495px;
+	width: 70px;
+	height: 70px;
+	border: 0px;
+	background: none;
+	outline: none;
+}
+
+#sponedbtn2 {
+	margin-top: 485px;
+	margin-left: 495px;
+	width: 70px;
+	height: 70px;
+	border: 0px;
+	background: none;
+	outline: none;
+}

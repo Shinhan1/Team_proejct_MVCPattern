@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+* {
+	font-family: "나눔스퀘어";
+	font-size: 100%;
+	font-variant-ligatures: none;
+}
+
+.head {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+ul {
+	position: relative;
+	margin: auto;
+	margin-right: 600px;
+	width: 600px;
+	height: 80px;
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+.topLi {
+	position: absolute;
+	top: 0;
+	text-align: center;
+}
+
+i {
+	display: inline-block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: #cccccc;
+	border-radius: 50%;
+	border: 2px solid transparent;
+}
+
+.ibefore::before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 23px;
+	width: 160px;
+	height: 1px;
+	background: #cccccc;
+}
+
+.box-container {
+	width: 1000px;
+	height: 1300px;
+	margin-left: 430px;
+	padding: 80px 50px 30px;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, .15);
+}
+
+.mainTitle {
+	display: inline-block;
+	font-size: 20px;
+	letter-spacing: -0.04em;
+}
+
+.choiceTitle {
+	font-weight: bold;
+}
+
+.topText {
+	margin-right: 700px;
+}
+
+.form-password, .form-password-check {
+	display: inline-block;
+	position: relative;
+	max-width: 475px;
+	width: 100%;
+}
+
+.table tr th {
+	padding: 26px 0 26px 25px;
+	width: 250px;
+	border-top: 1px solid #e5e5e5;
+	color: #555;
+	font-size: 17px;
+    font: bold 17px black;
+}
+
+.table tr td {
+	padding: 14px 0;
+	font-family: 'Nanum Barun Gothic';
+	letter-spacing: -0.05em;
+	color: #555;
+	font-size: 15px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.groupNum {
+	/* margin: .2em 0; */
+	height: 40px;
+	width: 380px;
+	font-size: 1em;
+	padding: .5em;
+	border: 1px solid #ccc;
+	border-color: #dbdbdb #d2d2d2 #d0d0d0 #d2d2d3;
+	box-shadow: inset 0.1em 0.1em 0.15em rgba(0, 0, 0, .1);
+	vertical-align: middle;
+	line-height: 1.25em;
+	outline: 0;
+	letter-spacing: -0.05em;
+}
+
+input[type=radio]{display: none;}
+label{display: inline-block;
+	width: 80px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px auto;
+	margin-left: 10px;
+	margin-right: 30px;
+}
+.genderC{background-image:url(../image/checkbox.png); 
+	margin-right: 20px;
+}
+input:checked + label.genderC{background-image: url(../image/checkbox_checked.png);
+margin-right: 20px;
+}
+/* 
+input[type=radio]:not(old)+label {
+	display: inline-block;
+	background: url("image/button-off.png") no-repeat;
+	width: 50px;
+	height: 20px;
+	margin-left: -20px;
+	padding-left: 20px;
+}
+
+input[type=radio]:not(old):checked+label {
+	display: inline-block;
+	background: url("image/button-on.png") no-repeat;
+	width: 50px;
+	height: 20px;
+	margin-left: -24px;
+	padding-left: 24px;
+} */
+
+.basic {
+	max-width: 500px;
+	width: 1000px;
+	height: 50px;
+	letter-spacing: -0.05em;
+	font-family: "Nanum Barun Gothic";
+	outline: none;
+	padding: 0 20px;
+	border: 1px solid #dddddd;
+	color: #666;
+	font-size: 15px;
+}
+
+.hpAll {
+	width: 150px;
+}
+
+.hpBox, .hpAll, .d_form mini {
+	outline: none;
+	padding: 0 20px;
+	border: 1px solid #dddddd;
+	color: #666;
+	font-size: 15px;
+	width: 120px;
+	height: 40px;
+}
+
+.emailBox1 {
+	margin-left: 18px;
+}
+
+.emailBox2, .emailBox1 {
+	outline: none;
+	padding: 0;
+	border: 1px solid #dddddd;
+	color: #666;
+	font-size: 15px;
+	width: 110px;
+	height: 40px;
+	border: 1px solid #dddddd;
+	color: #666;
+	font-size: 15px;
+}
+
+.email3 {
+	margin-left: 10px; width : 120px;
+	height: 40px;
+	width: 120px;
+}
+
+#submit {
+	margin-left: 12px; width : 150px;
+	height: 55px;
+	line-height: 55px;
+	font-size: 1.04em;
+	color: #fff;
+	letter-spacing: -0.04em;
+	background: #61564b;
+	border: 0;
+	text-align: center;
+	margin-right: 10px;
+	width: 150px;
+}
+
+.groupBtn {
+	margin-left: 0px;
+	text-align: center;
+	display: inline-block;
+	width: 140px;
+	height: 55px;
+	line-height: 55px;
+	font-size: 1.04em;
+	color: #fff;
+	letter-spacing: -0.04em;
+	background: #61564b;
+	border: 0;
+	text-align: center;
+	display: inline-block;
+}
+
+#golbang {
+	/* margin-right: 30px; */
+	/* position: relative;
+	left: 50px; */
+	
+}
+
+.select {
+	float: right;
+}
+
+.d_form {
+	letter-spacing: -0.05em;
+	font-family: "Nanum Barun Gothic";
+	outline: none;
+	/* 	margin-right: 8px; */
+	margin-top: 3px;
+	/* 	padding: 10px 20px; */
+	border: 1px solid #dddddd;
+	color: #666;
+	font-size: 15px;
+	vertical-align: middle;
+	line-height: 1.25em;
+	text-align: center;
+	background: #fff;
+	height: 45px;
+	letter-spacing: -0.05em;
+}
+
+.btn {
+	display: inline-block;
+	padding: 0 60px;
+	margin-top: 30px;
+	height: 75px;
+	width: 400px;
+	line-height: 55px;
+	font-size: 1.04em;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: -0.04em;
+	background: #3e66ae;
+	border: 0;
+	line-height: 55px;
+	cursor: pointer;
+}
+
+/* .groupBtn {
+	width: 10em;
+	height: 50px;
+	margin-right: 120px;
+	padding: 2px solid #61564b;
+} */
+.gender {
+	font-size: 18px;
+	font: bold 18px black;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 50px;
+}
+
+#alert-success {
+	background: #3E66AE;
+	color: #fff;
+	max-width: 500px;
+	height: 40px;
+	letter-spacing: -0.05em;
+	font-family: "Nanum Barun Gothic";
+	outline: none;
+	padding: 0 20px;
+	border: 1px solid #dddddd;
+	font-size: 15px;
+	text-align: center;
+	margin-left: 90px;
+}
+
+#alert-danger {
+	background-color: #F8D7DA;
+	color: #711B50;
+	max-width: 500px;
+	height: 40px;
+	letter-spacing: -0.05em;
+	font-family: "Nanum Barun Gothic";
+	outline: none;
+	padding: 0 20px;
+	border: 1px solid #dddddd;
+	font-size: 15px;
+	text-align: center;
+	margin-left: 90px;
+}
+
+.d_btn {
+	display: inline-block;
+	margin-right: 30px; width : 200px;
+	height: 50px;
+	text-align: center;
+	font-size: 1.04em;
+	color: #fff;
+	letter-spacing: -0.04em;
+	background: #61564b;
+	border: 0;
+	width: 200px;
+}
+
+#sample4_postcode {
+	width: 320px;
+	margin-right: 30px;
+}
+
+#sample4_roadAddress {
+	margin-left: -20px;
+}
+
+#sample4_jibunAddress {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 190px;
+}
+
+#sample4_extraAddress {
+	width: 175px;
+	margin-left: 35px;
+}
+
+#sample4_detailAddress {
+	width: 375px;
+	margin-right: 65px;
+}
+
+#bottomImg {
+	margin-top : 50px;
+	width: 450px;
+	height : 130px;
+	margin-left: 30px;
+}
+
+.help-join {
+	margin-top: 50px;
+	border-top: 1px solid #e5e5e5;
+	height: 200px;
+}
+
+input:focus {
+	border: 1px solid red;
+}

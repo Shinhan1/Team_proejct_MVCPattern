@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+.btn1 {
+		margin-right: 10px;
+		width: 100px;
+		height: 30px;
+		float: right;
+	}
+	
+	.btn1 {
+		margin-right: 10px;
+		width: 100px;
+		height: 30px;
+		float: right;
+	}
+	
+	#contents{
+		width:1200px;
+		height: 600px;
+     	
+	}
+	
+	
+	#container{
+		width: 1000px;
+		margin: 160px 0 0 100px;
+	}
+	
+	
+	
+	#camimg{
+		width: 170px;
+		height: 190px;
+	}
+	
+	#com{
+		width: 170px;
+		float: left;
+		margin : 10px 0 0 20px;
+		border:1px solid #cbcbca; 
+	}
+	
+	
+	
+	
+	p{
+		text-align: center;
+	}
+	
+	table {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	
+	table, tr, th, td {
+		border-collapse: collapse;		
+	}
+	
+	#pageList{
+		text-align: center;
+	}
+	
+	#page {
+		width:7px;
+		height:7px;
+		margin-right :10px;
+		padding : 2px;
+		border: 1px solid white;
+		background-color: #5CD1E5;
+		display: inline-block;
+		border-radius: 50%;
+	}
+	
+	#paging {
+		padding-top: 360px;
+	}
+	
+	
+	.footer {
+
+      height: 190px;
+
+      background-color: #EAEAEA;
+      
+      margin-top: 550px;
+      
+      
+
+   }
+
+   .inner {
+
+      padding: 20px 135px 20px 360px;
+
+   }
+
+   
+
+   .footer_top input {
+
+      margin-right:20px;
+
+   }
+
+   
+
+   .fb {
+
+
+      border-right: 1px solid #BDBDBD;
+
+      padding-right: 20px;
+
+      padding-left: 20px;
+
+      text-align: center;
+
+      display: inline;
+
+      float: left;
+
+   }
+
+   
+
+   .fb:first-child {
+
+      margin-left : -60px;
+
+   }
+
+   
+
+   .fb:last-child {
+
+      border-right: none;
+
+   }
+
+   
+
+   .fb a{
+
+      text-decoration: none;
+
+      color: black;
+
+   }
+
+   
+
+   .fb_mi {
+
+      border-right: 1px solid #BDBDBD;
+
+      padding-right: 20px;
+
+      padding-left: 20px;
+
+      text-align: center;
+
+      display: inline;
+
+      float: left;
+
+      font-size: 12px;
+
+      color: #4C4C4C;
+
+   }
+
+   
+
+   .fb_mi:first-child {
+
+      margin-left : -60px;
+
+   }
+
+   
+
+   .fb_mi:last-child {
+
+      border-right: none;
+
+   }
+
+   .footer_bottom p {
+
+      font-size: 12px;
+
+      color:#A6A6A6;
+
+   }

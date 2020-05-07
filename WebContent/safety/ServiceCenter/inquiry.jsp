@@ -4,10 +4,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	/* String mem = (String)session.getAttribute("member");
+	String mem = (String)session.getAttribute("member");
 	if(mem == null) {
 		response.sendRedirect("../login/safetyLogin.jsp");
-	} */
+	}
 
 	/* 페이징 처리 */
 
@@ -100,7 +100,7 @@
 						<jsp:include page="backBoard_right.jsp"></jsp:include>
 						<div class="right_inner">
 							<span>문의하신 내용은 평일 근무일 기준 익일까지 답변됩니다.</span>
-							<input type="button" value="문의하기" id="inquiryBt" onclick="location.href='boardWrite.jsp'"/>
+							<input type="button" value="문의하기" id="inquiryBt" onclick="location.href='../../boardWriteQA.do'"/>
 
 							<table id="right_inner_table">
 								<tr>

@@ -7,8 +7,9 @@
 <title>문의하기</title>
 <!-- inquiry.jsp -->
 <!-- <link rel="stylesheet" href="../css/main.css" /> -->
-
-<link rel="stylesheet" href="../css/boardWrite.css" />
+<link rel="stylesheet" href="safety/css/safetyNavi.css">
+<link rel="stylesheet" href="safety/css/boardWrite.css" />
+<link rel="stylesheet" href="safety/css/footer.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript" src="../se2/js/HuskyEZCreator.js" charset="utf-8"></script>
 <script type="text/javascript">
@@ -86,7 +87,7 @@
 
 						<div class="right_inner">
 							<!-- <form action="boardWrite_Ok.jsp" name="frm"> -->
-							<form action="boardWriteQA.do" name="frm" method="post"></form>
+							<form action="./boardWriteQA.do" name="frm" method="post">
 								<div id="container">
 									<table class="inquiry_Table">
 										<tr>

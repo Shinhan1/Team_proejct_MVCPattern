@@ -46,7 +46,7 @@
 		%> --%>
 		
 		<%
-			response.sendRedirect("inquiry.jsp");
+			response.sendRedirect("safety/ServiceCenter/inquiry.jsp");
 		%>
 
 

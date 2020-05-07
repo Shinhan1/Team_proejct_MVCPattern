@@ -14,7 +14,7 @@ import com.exam.safety.handler.sf_Action;
 import com.exam.safety.handler.sf_BoardWriteQA_Handler;
 
 @WebServlet("/boardWriteQA.do")
-public class BoardWriteQA extends HttpServlet {
+public class BoardWriteQA_Control extends HttpServlet {
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -31,13 +31,13 @@ public class BoardWriteQA extends HttpServlet {
 		req.setCharacterEncoding("UTF-8");
 		resp.setContentType("text/html;charset=UTF-8");
 		
-//		System.out.println("여기 까진 오나??");		안옴
 		
 		sf_Action model = new sf_BoardWriteQA_Handler();
 		String viewPage = null;
 		
 		try {
 			viewPage = model.process(req, resp);
+//			System.out.println("여기 까진 오나??");
 			
 			RequestDispatcher rd = req.getRequestDispatcher(viewPage);
 			rd.forward(req, resp);

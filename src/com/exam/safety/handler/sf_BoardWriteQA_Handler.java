@@ -13,7 +13,7 @@ import com.exam.safety.service.sf_BoardWriteQA_Service;
 public class sf_BoardWriteQA_Handler implements sf_Action {
 	
 	private static final String VIEW = "/safety/ServiceCenter/boardWrite.jsp";
-	private static final String RETURN_VIEW = "safety/ServiceCenter/boardWrite_Ok.jsp";
+	private static final String RETURN_VIEW = "/safety/ServiceCenter/boardWrite_Ok.jsp";
 	
 	private sf_BoardWriteQA_Service QAService = new sf_BoardWriteQA_Service();
 	
@@ -35,6 +35,7 @@ public class sf_BoardWriteQA_Handler implements sf_Action {
 	}
 	
 	private String processForm(HttpServletRequest req, HttpServletResponse resp) {
+		
 		return VIEW;
 	}
 	
@@ -42,6 +43,7 @@ public class sf_BoardWriteQA_Handler implements sf_Action {
 		
 		req.setCharacterEncoding("UTF-8");
 		resp.setContentType("text/html;charset=UTF-8");
+//		System.out.println("일로옴?");
 		
 		String title = req.getParameter("title");
 		String inquiry = req.getParameter("inquiry_area");
@@ -66,7 +68,7 @@ public class sf_BoardWriteQA_Handler implements sf_Action {
 
 		dao.QA_addData(dto);
 		
-		resp.sendRedirect("inquiry.jsp");
+		
 		
 		return RETURN_VIEW;
 		

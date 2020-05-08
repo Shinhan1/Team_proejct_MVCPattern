@@ -1,11 +1,12 @@
 <%@page import="com.exam.safety.dao.board_FAQ_Dao"%>
-<%@page import="com.exam.safety.dto.board_FAQ_VO"%>
+<%@page import="com.exam.safety.dto.board_FAQ_DTO"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!-- FAQ_table.jsp -->
 <!-- FAQ 테이블 -->
-<%
+<%-- <%
 	/* 페이징 처리 */
 	
 	// 현재 페이지(currentPage) 얻어오기
@@ -51,24 +52,24 @@
 	int endNo = currentPage*recordByPage;
 	int endNo1 = currentPage1*recordByPage;
 	//System.out.println(sel);
-	
-	
-%> 
+%>  --%>
 
 
 			<table id="board">
 				<!--  사용자가 작성한 게시글을 전부 출력해보세요 -->
-				<%
+				<%-- <%
 					/* if(sel == null) {		 */
-					ArrayList<board_FAQ_VO> list = dao.getAllData(startNo, endNo, sel);
-					/* if(sel.equals("")){ */
-									
-					for (board_FAQ_VO vo : list) {
-				%>
+							ArrayList<board_FAQ_DTO> list = dao.getAllData(startNo, endNo, sel);
+							/* if(sel.equals("")){ */
+											
+							for (board_FAQ_DTO vo : list) {
+				%> --%>
+				
+				<c:forEach var="dto" items="${list }">
 				
 				<tr class="q-row" >
-					<td class="col1">Q <%= vo.getFaq_inquiry() %></td>
-					<td class="col2">[<%= vo.getFaq_subInquiry() %>] <%= vo.getFaq_title() %></td>
+					<td class="col1">Q ${dto.faq_inquiry}</td>
+					<td class="col2">[${dto.faq_subInquiry}] ${dto.faq_title}</td>
 					<td class="col3"><img src="../image/down1.png" alt="아래" /></td>
 				</tr>
 				<tr class="a-row" hidden="hidden" >
@@ -77,20 +78,20 @@
 							<h4>A</h4>
 						</div>
 						<div class="a-contents">
-							<textarea name="ct" id="ct" cols="120" rows="" disabled><%= vo.getFaq_contents() %></textarea>
+							<textarea name="ct" id="ct" cols="120" rows="" disabled>${dto.faq_contents}</textarea>
 						</div>
 						
 					</td>
 				</tr>				
 				
-				
-				<% 
+				</c:forEach>
+				<%-- <% 
 						} 
 					/*}
 					else {
 						ArrayList<board_FAQ_VO> li = dao.selectData(sel);
 						for(board_FAQ_VO vo1 : li) { */
-				%>
+				%> --%>
 				
 				<%-- <tr class="q-row" >
 					<td class="col1">Q <%= vo1.getFaq_inquiry() %></td>
@@ -118,56 +119,34 @@
 				
 				
 			</table>
-			<%
+			<%-- <%
 				if(sel == null){
 					/* System.out.println("null"); */
 				
-			%>
+			%> --%>
+			<c:if test="${sel == null }">
 			
 			<div class="page">
-				<% 
-					for(int i = currentPage-10; i <= currentPage+10; i++) {
-					    if(i <= 0) {
-					      	continue;
-					    }else if (i > totalPage) {
-					      	break;
-					    }else {
-					      			
-				%>
-				<a href="question_answer.jsp?cp=<%= i %>"><span id="page">[<%= i %>]</span></a>
-					      		
-				<%
-						}	// if() end
-					      		
-					 }	// for() end
+				<c:forEach var="i" begin="1" end="${currentPage + 1 }">
 				
-			%>
+				
+				<a href="safety/ServiceCenter/boardWriteFAQ.do?cp=${i }"><span id="page">[${i }]</span></a>
+				</c:forEach>	
+				
 			</div>		
-		
-			<% 
-				}else{
-			%>
+			</c:if>
 			
+			<c:if test="${sel != null }">
 			<div class="page">
-				<% 
-					for(int i = currentPage1-10; i <= currentPage1+10; i++) {
-					    if(i <= 0) {
-					      	continue;
-					    }else if (i > selPage) {
-					      	break;
-					    }else {
-					      			
-				%>
-				<a href="question_answer.jsp?cp=<%= i %>&cctxt=<%= sel %>"><span id="page">[<%= i %>]</span></a>
-				<%
-						}	// if() end
-					      		
-					 }	// for() end
-					 %>      		
-			</div>	
-				<%
+				<c:forEach var="i" begin="1" end="${currentPage1 + 1 }">
+				<a href="safety/ServiceCenter/boardWriteFAQ.do?cp=${i }&cctxt=${sel}"><span id="page">[${i }]</span></a>
+				</c:forEach> 		
+			</div>
+			</c:if>
+				
+				<%-- <%
 				}
-				%>
+				%> --%>
 			
 			
 			

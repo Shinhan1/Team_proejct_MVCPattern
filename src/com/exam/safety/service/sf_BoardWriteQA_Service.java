@@ -10,10 +10,10 @@ import com.exam.safety.dto.board_QA_DTO;
 public class sf_BoardWriteQA_Service {
 	private board_QA_Dao qa_dao = new board_QA_Dao();
 	
-	public void writeBoard(board_QA_DTO qa_vo) {
+	public void writeBoard(board_QA_DTO qa_dto) {
 		
 		try(Connection conn = OracleXEConnection.getInstance().getConnection()) {
-			qa_dao.QA_addData(qa_vo);;
+			qa_dao.QA_addData(qa_dto);;
 			
 			
 		} catch (SQLException e) {

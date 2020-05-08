@@ -1,4 +1,4 @@
-<%@page import="com.exam.safety.dto.board_FAQ_VO"%>
+<%@page import="com.exam.safety.dto.board_FAQ_DTO"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.exam.safety.dao.board_FAQ_Dao"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -10,13 +10,13 @@
 <title>Q & A</title>
 <!-- <link rel="stylesheet" href="../css/footer.css" /> -->
 <!-- question_answer.jsp -->
-<link rel="stylesheet" href="../css/question_answer.css" />
+<link rel="stylesheet" href="safety/css/safetyNavi.css">
+<link rel="stylesheet" href="safety/css/footer.css" />
+<link rel="stylesheet" href="safety/css/question_answer.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script type="text/javascript">
 	$(function() {
-
-
 
 		$('.ub.second').click(function(){
 			location.href = "inquiry.jsp";
@@ -141,7 +141,7 @@
 			<% } %> --%>
 			<jsp:include page="FAQ_table.jsp"></jsp:include>
 			<div class="addBt">
-				<input type="button" id="add" value="관리자 페이지" onclick="location.href='question_answer_manager.jsp'"/>
+				<input type="button" id="add" value="관리자 페이지" onclick="location.href='question_answer_manager.jsp?cmd=list_manager'"/>
 			</div>
 			<div class="under_bar">
 				<div class="ub first">

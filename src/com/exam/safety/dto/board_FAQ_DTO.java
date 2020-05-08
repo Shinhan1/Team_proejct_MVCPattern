@@ -12,17 +12,17 @@ CREATE TABLE BOARD_FAQ (
 	    FAQ_SUBINQUIRY VARCHAR2(50));
 */
 
-public class board_FAQ_VO {
+public class board_FAQ_DTO {
 	private int faq_bno;
 	private String faq_title, faq_inquiry, faq_date, faq_contents;
 	private int faq_status, faq_hits;
 	private String faq_subInquiry;
 	
-	public board_FAQ_VO() {
+	public board_FAQ_DTO() {
 		super();
 	}
 	
-	public board_FAQ_VO(int faq_bno, String faq_title, String faq_inquiry, String faq_date, String faq_contents,
+	public board_FAQ_DTO(int faq_bno, String faq_title, String faq_inquiry, String faq_date, String faq_contents,
 			int faq_status, int faq_hits, String faq_subInquiry) {
 		super();
 		this.faq_bno = faq_bno;

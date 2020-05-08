@@ -14,7 +14,7 @@ import com.exam.safety.handler.sf_Action;
 import com.exam.safety.handler.sf_BoardWriteQA_Handler;
 
 @WebServlet("/boardWriteQA.do")
-public class BoardWriteQA_Control extends HttpServlet {
+public class sf_BoardWriteQA_Control extends HttpServlet {
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

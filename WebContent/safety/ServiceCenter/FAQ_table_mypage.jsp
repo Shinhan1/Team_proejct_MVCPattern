@@ -1,5 +1,5 @@
 <%@page import="com.exam.safety.dao.board_FAQ_Dao"%>
-<%@page import="com.exam.safety.dto.board_FAQ_VO"%>
+<%@page import="com.exam.safety.dto.board_FAQ_DTO"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -51,8 +51,6 @@
 	int endNo = currentPage*recordByPage;
 	int endNo1 = currentPage1*recordByPage;
 	//System.out.println(sel);
-	
-	
 %> 
 
 
@@ -60,10 +58,10 @@
 				<!--  사용자가 작성한 게시글을 전부 출력해보세요 -->
 				<%
 					/* if(sel == null) {		 */
-					ArrayList<board_FAQ_VO> list = dao.getAllData(startNo, endNo, sel);
-					/* if(sel.equals("")){ */
-									
-					for (board_FAQ_VO vo : list) {
+							ArrayList<board_FAQ_DTO> list = dao.getAllData(startNo, endNo, sel);
+							/* if(sel.equals("")){ */
+											
+							for (board_FAQ_DTO vo : list) {
 				%>
 				
 				<tr class="q-row" >

@@ -1,4 +1,4 @@
-<%@page import="com.exam.safety.dto.board_FAQ_VO"%>
+<%@page import="com.exam.safety.dto.board_FAQ_DTO"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.exam.safety.dao.board_FAQ_Dao"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -141,7 +141,7 @@
 			<% } %> --%>
 			<jsp:include page="FAQ_table_manager.jsp"></jsp:include>
 			<div class="addBt">
-				<input type="button" id="add" value="등록하기" onclick="location.href='board_FAQ.jsp'"/>
+				<input type="button" id="add" value="등록하기" onclick="location.href='../../boardWriteFAQ.do'"/>
 			</div>
 			<div class="under_bar">
 				<div class="ub first">

@@ -165,7 +165,7 @@ $(function() {
                 <ul class="hide_ul4">
                     <!-- 소개 세부 -->
                     <li class="hide_li">
-                        <a href="../ServiceCenter/question_answer.jsp" class="navi_hide_a">Q&A</a>
+                        <a href="boardWriteFAQ.do" class="navi_hide_a">Q&A</a>
                     </li>
                     <li class="hide_li">
                         <a href="../ServiceCenter/help.jsp?fno=personal_infor" class="navi_hide_a">개인정보처리방침</a>

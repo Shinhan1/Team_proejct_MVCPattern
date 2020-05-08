@@ -7,7 +7,9 @@
 <title>자주묻는질문 등록하기</title>
 <!-- boardFAQ.jsp -->
 <!-- <link rel="stylesheet" href="../css/main.css" /> -->
-<link rel="stylesheet" href="../css/board_FAQ.css" />
+<link rel="stylesheet" href="safety/css/safetyNavi.css">
+<link rel="stylesheet" href="safety/css/footer.css" />
+<link rel="stylesheet" href="safety/css/board_FAQ.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript" src="../se2/js/HuskyEZCreator.js" charset="utf-8"></script>
 <script type="text/javascript">
@@ -78,7 +80,8 @@
 						<jsp:include page="backBoard_right.jsp"></jsp:include>
 
 						<div class="right_inner">
-							<form action="board_FAQ_write.jsp" name="frm">
+							<!-- <form action="board_FAQ_write.jsp" name="frm"> -->
+							<form action="boardWriteFAQ.do" name="frm" method="post">
 								<div id="container">
 									<table class="inquiry_Table">
 										<tr>
@@ -126,7 +129,7 @@
 										</tr> -->
 									</table>
 									<div class="table_button">
-										<input type="button" value="취소" class="table_Bt first" onclick="location.href='question_answer.jsp'" />
+										<input type="button" value="취소" class="table_Bt first" onclick="location.href='safety/ServiceCenter/question_answer_manager.jsp'" />
 										<input type="button" value="등록" onclick="submitForm(this)" class="table_Bt second" />
 									</div>
 								</div>

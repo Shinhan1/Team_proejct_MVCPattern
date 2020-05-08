@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 import com.exam.safety.connection.OracleXEConnection;
-import com.exam.safety.dto.board_FAQ_VO;
+import com.exam.safety.dto.board_FAQ_DTO;
 
 /*
 CREATE TABLE BOARD_FAQ (
@@ -32,7 +32,7 @@ public class board_FAQ_Dao {
 	}
 
 	// 데이터 생성
-	public void FAQ_addData(board_FAQ_VO faq_vo) {
+	public void FAQ_addData(board_FAQ_DTO faq_vo) {
 		sb.setLength(0);
 		sb.append("insert into board_faq ");
 		sb.append("values (board_faq_seq.nextval, ?, ?, sysdate, ?, 0, 0, ? ) ");
@@ -54,8 +54,8 @@ public class board_FAQ_Dao {
 	} // FAQ_addData() end
 
 	// 전체 데이터 조회
-	public ArrayList<board_FAQ_VO> getAllData(int startNo, int endNo, String sel) {
-		ArrayList<board_FAQ_VO> list = new ArrayList<board_FAQ_VO>();
+	public ArrayList<board_FAQ_DTO> getAllData(int startNo, int endNo, String sel) {
+		ArrayList<board_FAQ_DTO> list = new ArrayList<board_FAQ_DTO>();
 
 		try {
 
@@ -105,7 +105,7 @@ public class board_FAQ_Dao {
 				int hits = rs.getInt("faq_hits");
 				String subinquiry = rs.getString("faq_subinquiry");
 
-				board_FAQ_VO vo = new board_FAQ_VO(bno, title, inquiry, date, contents, status, hits, subinquiry);
+				board_FAQ_DTO vo = new board_FAQ_DTO(bno, title, inquiry, date, contents, status, hits, subinquiry);
 
 				list.add(vo);
 
@@ -120,12 +120,12 @@ public class board_FAQ_Dao {
 	} // getAllData(startNo, endNo) end
 
 	// 데이터 한건 조회 메소드 - 게시글 번호 - getDate()
-	public board_FAQ_VO getData(int bno) {
+	public board_FAQ_DTO getData(int bno) {
 		sb.setLength(0);
 		sb.append("select * from board_faq ");
 		sb.append("where faq_bno=? ");
 
-		board_FAQ_VO vo = null;
+		board_FAQ_DTO vo = null;
 
 		try {
 			ps = conn.prepareStatement(sb.toString());
@@ -142,7 +142,7 @@ public class board_FAQ_Dao {
 			int hits = rs.getInt("faq_hits");
 			String subinquiry = rs.getString("faq_subinquiry");
 
-			vo = new board_FAQ_VO(bno, title, inquiry, date, contents, status, hits, subinquiry);
+			vo = new board_FAQ_DTO(bno, title, inquiry, date, contents, status, hits, subinquiry);
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -208,7 +208,7 @@ public class board_FAQ_Dao {
 	}// getTotalCount() end
 
 	// 수정
-	public void modifyData(board_FAQ_VO vo) {
+	public void modifyData(board_FAQ_DTO vo) {
 		sb.setLength(0);
 		sb.append("update board_faq ");
 		sb.append("set faq_title = ?, faq_inquiry = ?, faq_subinquiry = ?, faq_contents = ? ");

@@ -15,7 +15,9 @@ import com.exam.safety.handler.sf_BoardWriteFAQ_Handler;
 import com.exam.safety.handler.sf_BoardWriteFAQ_Manager_Handler;
 import com.exam.safety.handler.sf_BoardWriteFAQ_Modify_Handler;
 import com.exam.safety.handler.sf_boardFAQ_Handler;
+import com.exam.safety.handler.sf_boardWirteFAQ_Write_Handler;
 import com.exam.safety.handler.sf_boardWriteFAQ_Delete_Handler;
+import com.exam.safety.handler.sf_boardWriteFAQ_Mo_Handler;
 
 @WebServlet("/boardWriteFAQ.do")
 public class sf_BoardWriteFAQ_Control extends HttpServlet {
@@ -41,18 +43,18 @@ public class sf_BoardWriteFAQ_Control extends HttpServlet {
 		if (cmd == null || cmd.equalsIgnoreCase("list")) {
 			// 전체 리스트 페이지
 			model = new sf_boardFAQ_Handler();
-		}else if(cmd.equalsIgnoreCase("list_manager")) {
+		}else if(cmd.equalsIgnoreCase("manager")) {
 			// 글 작성 페이지
 			model = new sf_BoardWriteFAQ_Manager_Handler();
 		}else if(cmd.equalsIgnoreCase("insertForm")) {
 			// 글 작성 페이지
-			model = new sf_BoardWriteFAQ_Handler();
+			model = new sf_boardWirteFAQ_Write_Handler();
 		}else if(cmd.equalsIgnoreCase("insert")) {
 			// 실제 글 작성 기능 수행
 			model = new sf_BoardWriteFAQ_Handler();
 		}else if(cmd.equalsIgnoreCase("modify")) {
 			// 수정 form 보기
-			model = new sf_BoardWriteFAQ_Modify_Handler();
+			model = new sf_boardWriteFAQ_Mo_Handler();
 		}else if(cmd.equalsIgnoreCase("modifyOk")) {
 			// 게시글 수정 기능 수행
 			model = new sf_BoardWriteFAQ_Modify_Handler();

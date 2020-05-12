@@ -80,7 +80,7 @@
 		<div class="customer">
 			<h2>Q & A</h2>
 
-			<form action="question_answer.jsp" name="frm" >
+			<form action="./boardWrite.do" name="frm" >
 				<div class="tt">
 					<div class="tx">
 					<input type="text" name="cctxt" id="cctxt" placeholder="궁금한 점이 있다면 무엇이든 검색해보세요." />
@@ -94,16 +94,16 @@
 
 		<div class="boardBack">
 			<ul id="bb_ul">
-				<a href="question_answer.jsp" class="bb">
+				<a href="./boardWrite.do" class="bb">
 					<li class="bb_li">전체</li>
 				</a>
-				<a href="question_answer.jsp?cctxt=후원관련" class="bb">
+				<a href="./boardWrite.do?cctxt=후원관련" class="bb">
 					<li class="bb_li">후원관련</li>
 				</a>
-				<a href="question_answer.jsp?cctxt=결제관련" class="bb">
+				<a href="./boardWrite.do?cctxt=결제관련" class="bb">
 					<li class="bb_li">결제관련</li>
 				</a>
-				<a href="question_answer.jsp?cctxt=기타" class="bb">
+				<a href="./boardWrite.do?cctxt=기타" class="bb">
 					<li class="bb_li">기타</li>
 				</a>
 				<a href="inquiry.jsp" class="bb">
@@ -141,7 +141,7 @@
 			<% } %> --%>
 			<jsp:include page="FAQ_table.jsp"></jsp:include>
 			<div class="addBt">
-				<input type="button" id="add" value="관리자 페이지" onclick="location.href='question_answer_manager.jsp?cmd=list_manager'"/>
+				<input type="button" id="add" value="관리자 페이지" onclick="location.href='./boardWriteFAQ.do?cmd=manager'"/>
 			</div>
 			<div class="under_bar">
 				<div class="ub first">

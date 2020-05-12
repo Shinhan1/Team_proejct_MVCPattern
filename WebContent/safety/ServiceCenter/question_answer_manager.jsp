@@ -10,7 +10,9 @@
 <title>Q & A - 매니저</title>
 <!-- <link rel="stylesheet" href="../css/footer.css" /> -->
 <!-- question_answer_manager.jsp -->
-<link rel="stylesheet" href="../css/question_answer.css" />
+<link rel="stylesheet" href="safety/css/safetyNavi.css">
+<link rel="stylesheet" href="safety/css/footer.css" />
+<link rel="stylesheet" href="safety/css/question_answer.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script type="text/javascript">
@@ -141,7 +143,7 @@
 			<% } %> --%>
 			<jsp:include page="FAQ_table_manager.jsp"></jsp:include>
 			<div class="addBt">
-				<input type="button" id="add" value="등록하기" onclick="location.href='../../boardWriteFAQ.do'"/>
+				<input type="button" id="add" value="등록하기" onclick="location.href='./boardWriteFAQ.do?cmd=insertForm'"/>
 			</div>
 			<div class="under_bar">
 				<div class="ub first">

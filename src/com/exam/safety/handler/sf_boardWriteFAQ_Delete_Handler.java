@@ -10,14 +10,14 @@ import com.exam.safety.dto.board_FAQ_DTO;
 import com.exam.safety.service.sf_BoardWriteFAQ_Service;
 
 public class sf_boardWriteFAQ_Delete_Handler implements sf_Action {
-	private static final String VIEW ="safety/ServiceCenter/question_answer_manager.jsp";
-	private static final String DELETE_VIEW ="safety/ServiceCenter/deleteOK.jsp";
+	private static final String VIEW ="/safety/ServiceCenter/question_answer_manager.jsp";
+	private static final String DELETE_VIEW ="/safety/ServiceCenter/board_FAQ_deleteOk.jsp";
 	private sf_BoardWriteFAQ_Service FAQService = new sf_BoardWriteFAQ_Service();
 	
 	@Override
 	public String process(HttpServletRequest req, HttpServletResponse resp) throws SQLException, IOException {
 		if(req.getMethod().equalsIgnoreCase("GET")) {
-			return processForm(req, resp);
+			return processSubmit(req, resp);
 		}else if(req.getMethod().equalsIgnoreCase("POST")) {
 			return processSubmit(req, resp);
 		}else {

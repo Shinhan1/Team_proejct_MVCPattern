@@ -14,14 +14,14 @@ import com.exam.safety.service.sf_BoardWriteFAQ_Service;
 public class sf_BoardWriteFAQ_Modify_Handler implements sf_Action {
 	private static final String VIEW = "/safety/ServiceCenter/board_FAQ_modify.jsp";
 	private static final String RETURN_VIEW = "/safety/ServiceCenter/board_FAQ_modifyOk.jsp";
-	private static final String ERROR_VIEW = "safety/ServiceCenter/board_FAQ.jsp";
+	private static final String ERROR_VIEW = "/safety/ServiceCenter/board_FAQ.jsp";
 	
 	private sf_BoardWriteFAQ_Service FAQService = new sf_BoardWriteFAQ_Service();
 	
 	@Override
 	public String process(HttpServletRequest req, HttpServletResponse resp) throws SQLException, IOException {
 		if(req.getMethod().equalsIgnoreCase("GET")) {
-			return processForm(req, resp);
+			return processSubmit(req, resp);
 		}else if(req.getMethod().equalsIgnoreCase("POST")) {
 			return processSubmit(req, resp);
 		}else {
@@ -50,6 +50,7 @@ public class sf_BoardWriteFAQ_Modify_Handler implements sf_Action {
 		String inquiry = req.getParameter("inquiry_area");
 		String subinquiry = req.getParameter("subinquiry_area");
 		String contents = req.getParameter("ct");
+//		System.out.println(no + "Handler");	
 		
 		if(no != null) {
 			int bno = Integer.parseInt(no);

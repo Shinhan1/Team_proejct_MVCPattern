@@ -65,10 +65,8 @@ public class sf_boardFAQ_Handler implements sf_Action {
 		int selPage = (selCount/recordByPage == 0) ? selCount/recordByPage : selCount/recordByPage+1;			// 검색을 위한 삼항연산자
 		
 		int startNo = (currentPage-1) * recordByPage+1;
-		int startNo1 = (currentPage1-1)*recordByPage+1;
 		
 		int endNo = currentPage * recordByPage;
-		int endNo1 = currentPage1*recordByPage;
 		
 		ArrayList<board_FAQ_DTO> list = dao.getAllData(startNo, endNo, sel);
 		

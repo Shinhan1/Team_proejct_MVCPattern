@@ -49,13 +49,14 @@
 		var flag = confirm("등록하시겠습니까?");
 
 		if(flag) {
-
+			obj.form.action = "./boardWriteFAQ.do?cmd=insert";
 			obj.form.submit();
 
 		}
 
 
 	}
+	
 
 
 
@@ -81,7 +82,7 @@
 
 						<div class="right_inner">
 							<!-- <form action="board_FAQ_write.jsp" name="frm"> -->
-							<form action="boardWriteFAQ.do" name="frm" method="post">
+							<form action="./boardWriteFAQ.do" name="frm" method="post">
 								<div id="container">
 									<table class="inquiry_Table">
 										<tr>
@@ -129,7 +130,7 @@
 										</tr> -->
 									</table>
 									<div class="table_button">
-										<input type="button" value="취소" class="table_Bt first" onclick="location.href='safety/ServiceCenter/question_answer_manager.jsp'" />
+										<input type="button" value="취소" class="table_Bt first" onclick="location.href='./boardWriteFAQ.do?cmd=manager'" />
 										<input type="button" value="등록" onclick="submitForm(this)" class="table_Bt second" />
 									</div>
 								</div>
